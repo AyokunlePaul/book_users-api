@@ -1,6 +1,6 @@
 package application
 
-import "github.com/AyokunlePaul/book_user-api/controllers"
+import "github.com/AyokunlePaul/book_users-api/controllers"
 
 func mapUrls() {
 	router.POST("/user", controllers.CreateUser)
